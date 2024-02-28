@@ -1,0 +1,6 @@
+[
+{
+  "directory": "/home/doremy/projects/prefix-sum",
+  "arguments": ["/usr/local/cuda/bin/nvcc", "-c", "-Xcompiler", "-fPIE", "-O3", "-Iinclude", "-I/usr/local/cuda/include", "-m64", "-rdc=true", "-gencode", "arch=compute_89,code=sm_89", "-o", "build/.objs/prefix-sum/linux/x86_64/release/src/main.cu.o", "src/main.cu"],
+  "file": "src/main.cu"
+}]
